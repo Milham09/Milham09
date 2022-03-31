@@ -1,0 +1,9 @@
+CRITICAL - 2022-02-04 02:30:36 --> Invalid file: Kejaksaan/index.php
+#0 C:\xampp\htdocs\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Kejaksaan/index...')
+#1 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('Kejaksaan/index', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\Cau.php(11): view('Kejaksaan/index')
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Cau->index()
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cau))
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

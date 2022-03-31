@@ -1,0 +1,97 @@
+CRITICAL - 2022-02-06 23:01:47 --> Undefined variable: validation
+#0 C:\xampp\htdocs\ci\app\Views\news\index.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('news/index', Array, true)
+#4 C:\xampp\htdocs\ci\app\Controllers\Cau.php(11): view('news/index')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Cau->index()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cau))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-06 23:05:37 --> Class 'App\Models\NewsModel' not found
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(802): App\Controllers\News->__construct()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 23:05:45 --> Class 'App\Models\NewsModel' not found
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(802): App\Controllers\News->__construct()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 23:17:08 --> usersAuth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('usersAuth')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('usersAuth', 'before')
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 23:19:02 --> usersAuth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('usersAuth')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('usersAuth', 'before')
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 23:19:17 --> usersAuth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('usersAuth')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('usersAuth', 'before')
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 23:20:59 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-06 23:21:49 --> Invalid file: News/create.php
+#0 C:\xampp\htdocs\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('News/create.php')
+#1 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('News/create', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\news.php(23): view('News/create', Array)
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 23:22:45 --> Invalid file: News/create.php
+#0 C:\xampp\htdocs\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('News/create.php')
+#1 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('News/create', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\news.php(23): view('News/create', Array)
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 23:23:47 --> Invalid file: news/create.php
+#0 C:\xampp\htdocs\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/create.php')
+#1 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('news/create', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\news.php(23): view('news/create', Array)
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-06 23:24:03 --> Table 'ci4.news' doesn't exist
+CRITICAL - 2022-02-06 23:24:03 --> Table 'ci4.news' doesn't exist
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci\app\Controllers\news.php(74): App\Models\NewsModel->getNews()
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\News->list()
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-06 23:25:27 --> Invalid file: news/create.php
+#0 C:\xampp\htdocs\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/create.php')
+#1 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('news/create', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\news.php(23): view('news/create', Array)
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

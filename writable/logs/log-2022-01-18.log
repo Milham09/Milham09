@@ -1,0 +1,35 @@
+CRITICAL - 2022-01-18 20:32:10 --> Too few arguments to function App\Controllers\Film::edit(), 0 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Film->edit()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-18 20:35:30 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-01-18 20:35:30 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci\app\Controllers\Home.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Home->edit()
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-18 20:54:02 --> Invalid file: Pklpages/Login.php
+#0 C:\xampp\htdocs\ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pklpages/Login....')
+#1 C:\xampp\htdocs\ci\system\Common.php(1089): CodeIgniter\View\View->render('Pklpages/Login', Array, true)
+#2 C:\xampp\htdocs\ci\app\Controllers\Login.php(11): view('Pklpages/Login')
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-18 20:56:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Login->process()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
